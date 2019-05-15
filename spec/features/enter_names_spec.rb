@@ -14,4 +14,3 @@ feature 'Enter names' do
     	expect(page).to have_content 'Lisa vs. Vlad'
     end
 end
-
