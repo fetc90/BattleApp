@@ -19,4 +19,10 @@ enable :sessions
     erb :play
   end
 
+  get '/attack' do
+  	@first_player = session[:first_player]
+  	@second_player = session[:second_player]
+  	erb :attack
+  end
+  
 end
